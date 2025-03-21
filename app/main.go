@@ -21,5 +21,5 @@ func main() {
 		os.Exit(1)
 	}
 	fmt.Println(cmd[:len(cmd)-1]+": command not found")
-
+	main()
 }
